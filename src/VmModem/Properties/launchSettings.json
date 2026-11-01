@@ -1,0 +1,20 @@
+{
+  "profiles": {
+    "VmModem": {
+      "commandName": "Project",
+      "commandLineArgs": ""
+    },
+    "VmModem (verbose console)": {
+      "commandName": "Project",
+      "commandLineArgs": "-v"
+    },
+    "VmModem (hex dump of serial data)": {
+      "commandName": "Project",
+      "commandLineArgs": "-vvv"
+    },
+    "VmModem (connect to VM-created pipe)": {
+      "commandName": "Project",
+      "commandLineArgs": "--connect"
+    }
+  }
+}
